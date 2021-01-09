@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+
+    <div id="topWrapper">
+        <div id="formWrapper">
+            <form id="formSubmit">
+
+                <label for="title">Book Title</label><br>
+                <input type="text" id="titleField" name="title" value="Insert Title"><br>
+
+                <label for="author">Author</label><br>
+                <input type="text" id="authorField" name="author" value="Insert Author"><br>
+
+
+                <label for="editor">Editor</label><br>
+                <input type="text" id="editorField" name="editor" value="Insert Editor"><br>
+
+
+                <input type="submit" value="Submit" id="submitButton">
+            </form>
+        </div>
+
+
+        <div id="search">
+            <label for="search">Search</label><br>
+            <input type="text" id="searchField" name="search"><br>
+        </div>
+    </div>
+
+
+
+    <div id="displayBooks">
+        <h2> Books Displayed Here </h2>
+
+        <ul id="unorderedList">
+            <li id="sampleBook" class="bookItem">
+                Title: <i id="titleDisp">"Hi"</i>,
+                Author: <i id="authorDisp">no</i>,
+                Editor: <i id="editorDisp">Ok</i>,
+
+
+                <span class="delete">DELETE</span>
+            </li>
+
+
+
+
+        </ul>
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
